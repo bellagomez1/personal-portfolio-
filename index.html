@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Isabella Gomez — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Home">Isabella Gomez</a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" role="main">
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner container">
+          <h1 id="hero-title">Isabella Gomez</h1>
+          <p class="subtitle">Front‑end developer focused on accessible, high‑performance web experiences.</p>
+          <p class="hero-actions"><a class="btn" href="#projects">View projects</a> <a class="btn ghost" href="#contact">Contact</a></p>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title">About</h2>
+          <p>I build clean user interfaces with accessibility and performance in mind. I enjoy turning ideas into polished products and writing maintainable code.</p>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Selected projects</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Project One</h3>
+              <p>Short description of a project — what it does and the technologies used.</p>
+              <p><a href="#" class="link">Details →</a></p>
+            </article>
+
+            <article class="card">
+              <h3>Project Two</h3>
+              <p>Short description of another project. Replace these with your real projects when ready.</p>
+              <p><a href="#" class="link">Details →</a></p>
+            </article>
+
+            <article class="card">
+              <h3>Project Three</h3>
+              <p>A third example project to show the grid layout on wider screens.</p>
+              <p><a href="#" class="link">Details →</a></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title">Contact</h2>
+          <p>If you'd like to reach me, email <a href="mailto:you@example.com">you@example.com</a> or replace this with a contact form later.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Isabella Gomez</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
