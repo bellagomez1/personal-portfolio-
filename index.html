@@ -3,77 +3,109 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Isabella Gomez — Portfolio</title>
+    <title>Portfolio — Isabella Gomez</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <a class="skip" href="#main">Skip to main content</a>
-
-    <header class="site-header" role="banner">
-      <div class="container header-inner">
-        <a class="logo" href="#home" aria-label="Home">Isabella Gomez</a>
-        <nav class="primary-nav" aria-label="Primary navigation">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="/" class="logo">Isabella Gomez</a>
+          <nav class="primary-nav">
+            <ul>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
-    <main id="main" role="main">
-      <section id="home" class="hero" aria-labelledby="hero-title">
-        <div class="hero-inner container">
-          <h1 id="hero-title">Isabella Gomez</h1>
-          <p class="subtitle">Front‑end developer focused on accessible, high‑performance web experiences.</p>
-          <p class="hero-actions"><a class="btn" href="#projects">View projects</a> <a class="btn ghost" href="#contact">Contact</a></p>
+    <div class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <h1 id="hero-title">Hello, I'm Isabella Gomez.</h1>
+          <p class="subtitle">I'm a certified expert in web development, helping busy people like you be more organized and productive.</p>
+          <p class="subtitle">I design and optimize web experiences to be clutter-free, so you can focus on what's important and get things done.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Book a call</a>
+            <a href="#projects" class="btn ghost">View Projects</a>
+          </div>
         </div>
-      </section>
+      </div>
+    </div>
 
-      <section id="about" class="section about" aria-labelledby="about-title">
+      <section id="skills" class="section">
         <div class="container">
-          <h2 id="about-title">About</h2>
-          <p>I build clean user interfaces with accessibility and performance in mind. I enjoy turning ideas into polished products and writing maintainable code.</p>
-        </div>
-      </section>
-
-      <section id="projects" class="section projects" aria-labelledby="projects-title">
-        <div class="container">
-          <h2 id="projects-title">Selected projects</h2>
+          <h2>Skills</h2>
           <div class="grid">
-            <article class="card">
-              <h3>Project One</h3>
-              <p>Short description of a project — what it does and the technologies used.</p>
-              <p><a href="#" class="link">Details →</a></p>
-            </article>
-
-            <article class="card">
-              <h3>Project Two</h3>
-              <p>Short description of another project. Replace these with your real projects when ready.</p>
-              <p><a href="#" class="link">Details →</a></p>
-            </article>
-
-            <article class="card">
-              <h3>Project Three</h3>
-              <p>A third example project to show the grid layout on wider screens.</p>
-              <p><a href="#" class="link">Details →</a></p>
-            </article>
+            <div class="card">
+              <h3>💻 Software</h3>
+              <div class="skills-list">
+                <span class="skill">React</span>
+                <span class="skill">Figma</span>
+                <span class="skill">Webflow</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>🎯 Expertise</h3>
+              <div class="skills-list">
+                <span class="skill">Web Development</span>
+                <span class="skill">UI/UX Design</span>
+                <span class="skill">Project Management</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>🛠 Tools</h3>
+              <div class="skills-list">
+                <span class="skill">Google Sheets</span>
+                <span class="skill">Final Cut Pro</span>
+                <span class="skill">Python</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <section id="projects" class="section">
         <div class="container">
-          <h2 id="contact-title">Contact</h2>
-          <p>If you'd like to reach me, email <a href="mailto:you@example.com">you@example.com</a> or replace this with a contact form later.</p>
+          <h2>Projects</h2>
+          <div class="grid">
+            <div class="card">
+              <h3>Project 1</h3>
+              <p>Description of your first featured project. Highlight the key achievements and technologies used.</p>
+              <a href="#" class="link">View Project →</a>
+            </div>
+            <div class="card">
+              <h3>Project 2</h3>
+              <p>Description of your second featured project. Highlight the key achievements and technologies used.</p>
+              <a href="#" class="link">View Project →</a>
+            </div>
+            <div class="card">
+              <h3>Project 3</h3>
+              <p>Description of your third featured project. Highlight the key achievements and technologies used.</p>
+              <a href="#" class="link">View Project →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <div class="card">
+            <h3>Let's Work Together</h3>
+            <p>Ready to start a project or have questions? I'd love to hear from you.</p>
+            <a href="mailto:your-email@example.com" class="btn">Contact Me</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer" role="contentinfo">
-      <div class="container footer-inner">
-        <p>&copy; <span id="year"></span> Isabella Gomez</p>
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 Isabella Gomez. All rights reserved.</p>
       </div>
     </footer>
 
